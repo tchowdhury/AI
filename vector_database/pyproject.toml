@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "vector-database"
+version = "0.1.0"
+description = ""
+authors = ["Tapajoyti Chowdhury <tchowdhury@tnsiit.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pinecone = {extras = ["grpc"], version = "^6.0.1"}
+python-dotenv = "^1.0.1"
+pillow = "^11.1.0"
+torch = "^2.6.0"
+transformers = "^4.49.0"
+opencv-python = "^4.11.0.86"
+tensorflow = "^2.18.0"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

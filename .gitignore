@@ -128,7 +128,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-prompt_engineering/prompt_engineering/.env
+.env
 .venv
 env/
 venv/
